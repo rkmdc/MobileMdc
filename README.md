@@ -11,7 +11,7 @@ MobileMdc
 This project or website is related to mobile version only 
 
 
-Works with any server-side platform (PHP, Python, Ruby on Rails, Java, Node.js, Go etc.) that supports standard HTML5 and css form file.
+Works with any server-side platform (PHP, Javascript, Jquery, and Angular.js, Java, Node.js, Go etc.) that supports standard HTML5 and css form file.
 
 </br />
 <b>License</b>
