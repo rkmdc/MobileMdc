@@ -15,6 +15,8 @@ Works with any server-side platform (PHP, Javascript, Jquery, and Angular.js, Ja
 
 </br />
 <b>License</b>
-
+<br />
+Released under the <a href="http://mdccorp.in/" target="_blank">
+MDC Concepts license.</a>
 
 This project or website is related to mobile version only 
