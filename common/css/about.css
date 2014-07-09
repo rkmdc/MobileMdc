@@ -30,7 +30,7 @@ and open the template in the editor.
 
 .About_Text_wrapper{
     margin: 7%;
-
+    text-align: justify;
     display: block;
     height: 74%;
     overflow-y: scroll;
