@@ -49,7 +49,7 @@
             <?php include_once './Menu_left.php'; ?>
         </nav>
         <!--This is Right menu navigation-->
-        <nav class="main-right-menu">
+        <nav class="main-right-menu"> 
             <?php include_once './Menu_Right.php'; ?>
         </nav>
 
