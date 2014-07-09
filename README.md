@@ -29,5 +29,5 @@ Please note that if you are accessing any source code of MDC Concepts project,  
 4)You must not upload, post, host, or transmit unsolicited email of source code.
 6)You must not transmit any worms or viruses or any code of a destructive nature.
 
-CHANGES TO THE TERMS AND CONDITIONS:
+CHANGES TO THE TERMS AND CONDITIONS:<br />
 These Terms and Conditions may be amended, revised, changed, updated or modified by Mdc Concepts with or without notice. Please review this link on a regular basis for changes.
