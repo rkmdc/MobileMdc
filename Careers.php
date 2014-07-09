@@ -42,7 +42,7 @@ $Menu_Active =5;
             }
 
             .file_input_hidden{
-                color:#395870;width: 99%;
+                color:#395870;width: 215%;
 
             }
             .filewrapper input{
