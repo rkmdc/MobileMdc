@@ -7,20 +7,22 @@
         <li class="Default_Menu_Border"><a href="AboutUs.php"><div class="Menu_about_us_select" ></div> <div class="menu_Text_wrapper  select_menu_styles" style="margin-top: 7%;" ><span>About Us</span>
 
                 </div> </a>
-                    </li>
+        </li>
 
 
-                    <li class="Default_Menu_Border"><a href="MDDesk.php"><div class="Menu_about_us_select" ></div> <div class="menu_Text_wrapper" style="margin-top: 7%;" ><span>MD's Desk</span>
+        <li class="Default_Menu_Border"><a href="MDDesk.php"><div class="Menu_about_us_select" ></div> <div class="menu_Text_wrapper" style="margin-top: 7%;" ><span>MD's Desk</span>
 
-                        </div> </a></li>
+                </div> </a>
+        </li>
 
-                        <li class="Default_Menu_Border"><a href="BoardofDirector.php"><div class="Menu_about_us_select" ></div> <div class="menu_Text_wrapper" style="margin-top: 7%;" ><span>Board of Director</span>
+        <li class="Default_Menu_Border"><a href="BoardofDirector.php"><div class="Menu_about_us_select" ></div> <div class="menu_Text_wrapper" style="margin-top: 7%;" ><span>Board of Director</span>
 
-                        </div> </a></li>
+                </div> </a>
+        </li>
 
-            
 
-                        <li class="Default_Menu_Border"><a href="Careers.php"><div class="Menu_clients"></div> <div class="menu_Text_wrapper" ><span>Careers</span>
+
+        <li class="Default_Menu_Border"><a href="Careers.php"><div class="Menu_clients"></div> <div class="menu_Text_wrapper" ><span>Careers</span>
 
                 </div> </a>
         </li>
