@@ -31,3 +31,6 @@ Please note that if you are accessing any source code of MDC Concepts project,  
 
 CHANGES TO THE TERMS AND CONDITIONS:<br />
 These Terms and Conditions may be amended, revised, changed, updated or modified by Mdc Concepts with or without notice. Please review this link on a regular basis for changes.
+
+
+cp -a MobileMDCCorp/* /var/www/MobileMDCCorp/
