@@ -38,6 +38,9 @@ $Meta_keyword = 'Photocontest, Photography comiptition 2014, Online Photo Contes
 $Meta_Auther = '(CodeLord,Rishav) Developer @MDC Concepts India Pvt Ltd';
 
 
+$Menu_Active =0;
+
+
 /**
  * This variable is used for getting all Match Data
  */
