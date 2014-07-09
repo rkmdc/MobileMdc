@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 4, 2014, 6:55:56 PM
+    Author     : Codelord
+Description: this css is used for client styles
+*/
+
+.Round_Blue_Canvas{
+    background-color: #222222;
+    position: absolute;
+    /* margin: 6%; */
+    top: 10%;
+    left: 6%;
+    width: 87%;
+    height: 69%;
+    border-radius: 28px;
+
+    font-size: 12px;
+    font-family: calibri;
+    /* font-weight: bold; */
+    color: #fff;
+
+    text-shadow: 0 0px 0 #fff;
+}
+
+.About_Text_wrapper{
+    margin: 7%;
+
+    display: block;
+    height: 74%;
+    overflow-y: scroll;
+}
+.Default_Fotter_logo{
+    position: absolute;
+    height: 98%;
+    width: 100%;
+    display: block;
+    top: 19px;
+}
+td 
+{
+
+}
+
+#cssTable td 
+{
+    text-align: center;
+}
+#cssTable img{
+    /* margin-left: 6%; */
+    height: 51%;
+    width: 100%;
+
+}
+.show{
+    opacity: 1.0;
+}
+.hide{
+    opacity: 0.0;
+}

@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 Mar, 2014, 4:02:51 PM
+    Author     : poonam
+    Description : This css is used for Home page styles. 
+*/
+
+
+.Round_Blue_Canvas{
+    /* background-color: #01193f; */
+    position: absolute;
+    /* margin: 6%; */
+    /* top: 10%; */
+    /* left: 6%; */
+    width: 100%;
+    height: 76%;
+    border-radius: 28px;
+
+    font-size: 12px;
+    font-family: calibri;
+    /* font-weight: bold; */
+    color: #fff;
+
+    text-shadow: 0 0px 0 #fff;
+    top: 47px;
+}
+
+.About_Text_wrapper{
+    /* margin: 7%; */
+
+    display: block;
+    height: 100%;
+    /* overflow-y: scroll; */
+}
+.show{
+    opacity: 1.0;
+}
+.hide{
+    opacity: 0.0;
+}
+.home_logo
+{
+    width: 100%;
+    /* padding-top: 18%; */
+    /* position: absolute; */
+    /* left: 1%; */
+    opacity: 0;
+
+    /* position: absolute; */
+}
+.home_logo1
+{
+    width: 100%;
+    /* padding-top: 18%; */
+    position: absolute;
+    /* left: 0.996%; */
+    /* opacity: 0; */
+    top: 0px;
+}
+.copyright
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: small;
+}
+
+.Home_MDCCoorpLogo{
+    opacity: 0;
+    margin-left: 2%;
+    margin-top: 0%;
+}
+
+
+.home_Logo_wrapper{
+    position: absolute;
+    z-index: 5;
+    height: 35%;
+    top: 20.5%;
+    width: 100%;
+    /* left: 34.5%; */
+    text-align: center;
+    background: transparent;
+}
+
+.Default_LineArtDrawingWrapper{
+    position: relative;
+    /* margin-top: 15%; */
+    align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 169px;
+    display: block;
+    width: 122px;
+    /* margin: 1%; */
+}
+
+.home_paragragh{
+    position: absolute;
+    /* padding-top: 45%; */
+    /* padding-left: 10%; */
+    font-size: x-small;
+    color: #fff;
+    width:70%;
+    text-align: center;
+    left: 10%;
+    margin-left: 3%;
+}
+.div_home_paragraph{
+    align : center ;
+    /* padding-left: 3%; */
+    /* padding-top: 35%; */
+
+    position: relative;
+    /* left: 14%; */
+    top: 17px;
+    width: 100%;
+    height: 46%;
+    opacity: 0;
+    /* align-items: center; */
+}
