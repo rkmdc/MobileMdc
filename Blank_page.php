@@ -23,7 +23,7 @@
 
        
         
-          <div id="app_main_content" class="app-content">
+            <div id="app_main_content" class="app-content" style="background: #060E1E">
                 <div class="Round_Blue_Canvas">
                     <div class="About_Text_wrapper">
                         
