@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="google-site-verification" content="zxd1iE_Pli1AHlUuPgHheRlsL8514BqY06j7GaIInFI" />
         <?php include_once './Headindex_page.php'; ?>
        
        
