@@ -26,9 +26,9 @@ $Menu_Active =3;
        
         
           <div id="app_main_content" class="app-content">
-                <div class="Round_Blue_Canvas" style="height: 80%;">
-                    <div class="About_Text_wrapper" style=" height: 89%">
-                        <div class="mdimg" style="margin:  0 auto; display: block"> <img id="md" src="common/img/pushkar-tapre1.png" style="margin-left: 16%;">   </div>
+                <div class="Round_Blue_Canvas">
+                    <div class="About_Text_wrapper">
+                        <div class="mdimg" style="margin:  0 auto; display: block"> <img id="md" src="common/img/mohan-tapre.png" style="margin-left: 16%;">   </div>
                         <p class="mdpara">
                         <b style="text-transform: uppercase;"> Shri. Mohan Krishnaji Tapre </b> is the guiding light and pioneer of the MDC family. He holds a Bachelor's Degree in Commerce.
 

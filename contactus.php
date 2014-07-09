@@ -77,7 +77,7 @@ $Menu_Active =6;
 
 
 
-        <div class="container" style="width: 195%;
+        <div class="container" style="width: 185%;
              /* top: 91px; */
              overflow: hidden;
              outline: none;
