@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="zxd1iE_Pli1AHlUuPgHheRlsL8514BqY06j7GaIInFI" />
 <meta charset="utf-8">
         <title>MDC Corporation</title>
         <meta name="description" content="">
