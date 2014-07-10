@@ -28,7 +28,8 @@ $Menu_Active =4;
           <div id="app_main_content" class="app-content">
                 <div class="Round_Blue_Canvas">
                     <div class="About_Text_wrapper">
-                        <p class="mdpara1" style="text-align: justify;">
+                        <div class="mdimg1"> <img id="img" src="common/img/1.png" style="margin-left: 16px;"></div>
+                        <p class="mdpara1" style="text-align: justify;margin-top: 15px;font-family: sans-serif; line-height: 1.4em;">
                          <b style="text-transform: uppercase;">MR. PUSHKAR M.TAPRE</b><br/>
 
                     Pushkar Tapre is the co-founder and one of the managing directors of MDC Corporation. He holds a Bachelor's degree in Commerce and a Diploma in Event Management.
@@ -37,6 +38,7 @@ $Menu_Active =4;
 
                     His continuing motivation and dedication has seen the company grow from MD Communications, a loan providing companyinto MDC Corporation which has business interests in finance, lifestyle, real estate, health, branding and information technology. Each MDC group company has a different fieldof operation but together, they touch all the spheres ofhuman life with unique quality deliverables.
                      </p>
+                     <div class="mdimg2"> <img id="img" src="common/img/3.png" style="margin-left: 16px;"></div>
                      <p class="mdpara2" style="margin-top: 30px;text-align: justify;">
                          <b style="text-transform: uppercase;">MR. MANISH MUTHA</b>
                     <br/>
