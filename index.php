@@ -7,7 +7,7 @@ $Menu_Active = 1;
 <html>
     <head>
         <meta name="google-site-verification" content="zxd1iE_Pli1AHlUuPgHheRlsL8514BqY06j7GaIInFI" />
-<?php include_once './Headindex_page.php'; ?>
+        <?php include_once './Headindex_page.php'; ?>
 
 
     </head>
@@ -16,12 +16,12 @@ $Menu_Active = 1;
         <!--This is left menu navigation-->
         <nav class="main-left-menu">
 
-<?php include_once './Menu_leftindex.php'; ?> 
+            <?php include_once './Menu_leftindex.php'; ?> 
         </nav>
 
         <!--This is Right menu navigation-->
         <nav class="main-right-menu">
-<?php include_once './Menu_rightindex.php'; ?>
+            <?php include_once './Menu_rightindex.php'; ?>
         </nav>
 
         <!--This is main content page-->
@@ -29,10 +29,10 @@ $Menu_Active = 1;
 
             <br>
             <!--This is fixed header part--> 
-<?php include_once './Headerindex.php'; ?>
+            <?php include_once './Headerindex.php'; ?>
             <!--This is fixed Footer part-->
 
-<?php include_once './Footerindex.php'; ?>
+            <?php include_once './Footerindex.php'; ?>
 
 
 
@@ -171,7 +171,7 @@ $Menu_Active = 1;
                 </div>
             </div>
         </div>
-<?php include_once './overlay.php'; ?> 
+       
         <!-- Line Art Scripts for logo-->
         <script src="common/js/logoLIneArtDrawing.js" type="text/javascript"></script>
 
