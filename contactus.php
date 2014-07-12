@@ -140,7 +140,7 @@ $Menu_Active = 6;
                                 <p class="addrcorp" id="addrcorp">
 
                                     MDC Corporation (India) Pvt.Ltd.3rd Floor Deccan Avenue Pune.
-                                    <br /> <b>Email:</b><br />info@mdccorp.co.in.
+                                    <br /> <b>Email:</b><a href="mailto:info@mdccorp.co.in?Subject=Hello%20again" target="_top"> Send Mail</a><br />info@mdccorp.co.in.
 
 
                                 </p>
@@ -150,7 +150,8 @@ $Menu_Active = 6;
                                 <p class="addrreg" id="addrreg">
 
                                     Namjoshi Building, L.B.S Road, Navi peth Pune.
-                                    <br /><b>Email:</b> <br />info@mdccorp.co.in.
+                                    <br /><b>Email:</b> <a href="mailto:info@mdccorp.co.in?Subject=Hello%20again" target="_top">
+Send Mail</a><br />info@mdccorp.co.in.
                                 </p>
 
                             </div>
