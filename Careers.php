@@ -21,7 +21,8 @@ $Menu_Active =5;
                 margin:0 auto;display:block;width:43%;
             }
 
-            .lable{margin-top:19px;}
+            .lable{margin-top:19px;
+            font-family: sans-serif;}
             .textarea{
                 color: #395870;
                 width: 248%;
@@ -91,9 +92,9 @@ $Menu_Active =5;
 
                 <?php
                 if ($_GET['result'] == 1) {
-                    echo 'Your application has been sent.';
+                    echo 'Application sent.';
                 } else {
-                    echo 'Your application has not been sent.';
+                    echo 'Application not sent.';
                 }
                 ?>
 
@@ -106,7 +107,7 @@ $Menu_Active =5;
         <div class="container" style="width: 70%;">
 
             <div style="margin-top: 54px;;">
-                <h3 style="color: #FFF;">Application Form</h3>
+                <h3 style="color: #FFF; font-family:sans-serif;">Application Form</h3>
 
 
                 <form action="sendmail_Career.php" class="form1" id="myForm" method="POST" enctype="multipart/form-data">

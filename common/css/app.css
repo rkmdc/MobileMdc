@@ -11,6 +11,7 @@
     /* font-weight: lighter; */  text-shadow: 0 0px 0 #fff;
 }
 #leftmenu_content {
+    font-family: sans-serif;
     display: block;
     height: 100%;
 
@@ -2448,4 +2449,5 @@ button.Zebra_DatePicker_Icon_Inside {
 
 .Default_Menu_Border{
      border-bottom: 1px solid rgba(255, 255, 255, 0.38);
+     font-family: sans-serif;
 }
