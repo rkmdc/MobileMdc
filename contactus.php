@@ -69,16 +69,17 @@ $Menu_Active = 6;
             }
 
             #abcd{
-
+                width: 20%;
                 position: absolute;
-                top: 42%;
-                right: 80%;
+                top: 35%;
+                right: 68%;
             }
             #abc{
-
+                display: none;
+                width: 20%;
                 position: absolute;
-                top: 42%;
-                right: 80%;
+                top: 35%;
+                right: 68%;
             }
 
         </style>
@@ -133,8 +134,9 @@ $Menu_Active = 6;
 
 
                                 <input type="button" id="corp" value="Corporate Office" class="corp" onclick="corporateClick();" style="cursor:pointer">
-                                <input type="button" id="regs" value="Registration Office" class="regs" onclick="registerClick();"style="cursor:pointer">
-                                <img src="common/img/icon-for-g-maps.png"  id="abcd" onclick="mapping_map_corp();">
+
+
+                                <img src="common/img/Map_icon.png"  id="abcd" onclick="mapping_map_corp();">
                                 <p class="addrcorp" id="addrcorp">
 
                                     MDC Corporation (India) Pvt.Ltd.3rd Floor Deccan Avenue Pune.
@@ -142,8 +144,11 @@ $Menu_Active = 6;
 
 
                                 </p>
+
+                                <input type="button" id="regs" value="Registration Office" class="regs" onclick="registerClick();"style="cursor:pointer">
+                                <img src="common/img/Map_icon1.png" id="abc" onclick="mapping_map_reg();">
                                 <p class="addrreg" id="addrreg">
-                                    <img src="common/img/icon-for-g-maps.png" id="abc" onclick="mapping_map_reg();" style="display: none">
+
                                     Namjoshi Building, L.B.S Road, Navi peth Pune.
                                     <br /><b>Email:</b> <br />info@mdccorp.co.in.
                                 </p>
@@ -162,8 +167,8 @@ $Menu_Active = 6;
                         function corporateClick()
                         {
 
-                            //document.getElementById("map").style.display = "none";
-                            //document.getElementById("map1").style.display = "block";
+
+
                             document.getElementById("addrcorp").style.display = "block";
                             document.getElementById("addrreg").style.display = "none";
                             document.getElementById("abcd").display = "block";
@@ -173,10 +178,11 @@ $Menu_Active = 6;
                         function registerClick()
                         {
 
-                            //document.getElementById("map").style.display = "block";
-                            //document.getElementById("map1").style.display = "none";
+
                             document.getElementById("addrcorp").style.display = "none";
                             document.getElementById("addrreg").style.display = "block";
+                            document.getElementById("abcd").display = "none";
+                            document.getElementById("abc").display = "block";
 
                         }
 
@@ -194,9 +200,9 @@ $Menu_Active = 6;
 
                         function mapping_map_reg()
                         {
-                            document.getElementById("abcd").display = "block";
-                            document.getElementById("abc").display = "none";
-                            window.open('http://maps.google.com/maps?ll=18.495829,73.864134&z=14&t=m&hl=en-US&gl=US&mapclient=embed&cid=2290464802176146632', '_system');
+                            //document.getElementById("abcd").display = "none";
+                            // document.getElementById("abc").display = "block";
+                            window.open('https://www.google.com/maps/place/MDC/@18.4779432,73.8511853,13z/data=!4m2!3m1!1s0x0:0x1fc95d9a283e9cc8?hl=en-US', '_system');
 
 
                         }

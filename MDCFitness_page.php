@@ -37,7 +37,7 @@ Super Fight League which features fights between world-renowned Mixed Martial Ar
             </div>
          </div>
         
-        
+<!--        
               <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -47,7 +47,7 @@ Super Fight League which features fights between world-renowned Mixed Martial Ar
   ga('create', 'UA-52622661-1', 'auto');
   ga('send', 'pageview');
 
-</script>       
+</script>       -->
         
     </body>
 

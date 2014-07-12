@@ -29,7 +29,7 @@ $Menu_Active =2;
                 <div class="Round_Blue_Canvas">
                     <div class="About_Text_wrapper">
                         <h2>About Us</h2>
-                        <p>VISION<br/>
+                        <p>Vision<br/>
                             To be known as an innovative multi-disciplinary business
                             conglomerate making “a difference” to its stake holders.
                             To touch every sphere of human life through diverse
@@ -37,7 +37,7 @@ $Menu_Active =2;
                             global foothold to all our products and services by
                             consistently adding value to our customers.
                         </p><br/>
-                        <p>MISSION<br/>
+                        <p>Mission<br/>
                             To establish ourselves as a business entity unique to our
                             values, to create notable benchmarks on our journey to
                             growth and prosperity...To expand through our business
@@ -47,7 +47,7 @@ $Menu_Active =2;
                             stand apart on the merit of our quality, by providing the
                             best value to our stake-holders.
                         </p><br/>
-                        <p>OUR CORE VALUES<br/>
+                        <p>Our Core values<br/>
                             Our corporate philosophy is founded on principles of
                             Honesty, Simplicity and Integrity. We practice these three
                             principles in our everyday life as part of our personality and
@@ -62,7 +62,7 @@ $Menu_Active =2;
             </div>
         
         </div>
-        
+<!--        
          <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -72,7 +72,7 @@ $Menu_Active =2;
   ga('create', 'UA-52622661-1', 'auto');
   ga('send', 'pageview');
 
-</script>    
+</script>    -->
           
         
     </body>
