@@ -2,7 +2,7 @@
 <!DOCKTYPE HTML>
 <html>
     <head>
-        <?php include_once './Header.php'; ?>
+        <?php include_once './LifestyleHeader.php'; ?>
     </head>
     <body>
         <nav class="main-left-menu">
@@ -19,12 +19,12 @@
             <!--This is fixed header part--> 
             <?php include_once './Head_page.php'; ?>
 
-            <?php include_once './Footer.php'; ?>  
+            <?php include_once './LifestyleFooter.php'; ?>  
 
        
         
-          <div id="app_main_content" class="app-content">
-                <div class="Round_Blue_Canvas" style="background-color: rgb(92,22,125);text-align: justify;">
+          <div id="app_main_content" class="app-content" style="background-color: rgb(92,22,125);">
+                <div class="Round_Blue_Canvas" style="background-color:#3c0e52; text-align: justify;">
                     <div class="About_Text_wrapper">
                    <p>Let&apos;s give new dimension to a healthy living...
 
