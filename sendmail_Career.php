@@ -66,8 +66,11 @@ $usermessage = "Dear candidate
 
 mail($to, $usersubject, $usermessage, "From: $fromEmail \r\n Reply-To: $fromEmail \r\nReturn-Path: $fromEmail\r\n");
 if ($flgchk) {
-    header('Location: http://corptwo.mdccorp.in/career.php?result=1');
+   // header('Location: http://corptwo.mdccorp.in/career.php?result=1');
+    header('Location: http://localhost:8000/Careers.php?result=1');
+    
 } else {
-    header('Location: http://corptwo.mdccorp.in/career.php?result=0');
+      header('Location: http://localhost:8000/Careers.php?result=0');
+    //header('Location: http://corptwo.mdccorp.in/career.php?result=0');
 }
 ?>

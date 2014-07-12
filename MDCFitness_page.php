@@ -24,7 +24,7 @@
        
         
           <div id="app_main_content" class="app-content" style="background-color: rgb(228,125,40);">
-                <div class="Round_Blue_Canvas" style="background-color:#f0b483; text-align: justify;">
+                <div class="Round_Blue_Canvas" style="background-color:#A05517; text-align: justify;">
                     <div class="About_Text_wrapper">
                 <p>Competitive sports have acquired a new status on popularity charts in various countries. They have set new standards in the world of fitness that encourages competition of the highest level. This is witnessed live by the world around through dedicated sports channels. The TRPs of these channels have swelled as a result of ever-growing viewership.
 MDC has been actively organizing and promoting Super Fight League in the same genre of competitive sport. This has immediately clicked with the Indian viewers who are now asking for more.
