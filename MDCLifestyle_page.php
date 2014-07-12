@@ -24,7 +24,7 @@
        
         
           <div id="app_main_content" class="app-content" style="background-color: rgb(92,22,125);">
-                <div class="Round_Blue_Canvas" style="background-color:#3c0e52; text-align: justify;">
+                <div class="Round_Blue_Canvas" style="background-color:#1c0626; text-align: justify;">
                     <div class="About_Text_wrapper">
                    <p>Let&apos;s give new dimension to a healthy living...
 
