@@ -10,7 +10,7 @@ $Menu_Active = 6;
         <style>
 
             .button11{
-                margin-top:124%;
+                margin-top:150%;
             }
 
             .regs{
@@ -68,13 +68,14 @@ $Menu_Active = 6;
 
             }
 
-            #abcd{
+            #corpimgmap{
+                //display: none;
                 width: 20%;
                 position: absolute;
                 top: 35%;
                 right: 68%;
             }
-            #abc{
+            #regimgmap{
                 display: none;
                 width: 20%;
                 position: absolute;
@@ -112,22 +113,7 @@ $Menu_Active = 6;
                     <div class="About_Text_wrapper">
 
 
-                        <!--                        <div onclick="myfoo();" class="point" style="cursor: pointer;">
-                                                
-                                                
-                                                    Go To my map and Address
-                                                
-                                                </div>
-                                                <script>
-                        
-                                                    function myfoo()
-                                                    {
-                        
-                                                        window.open('http://maps.google.com/maps?ll=18.495829,73.864134&z=14&t=m&hl=en-US&gl=US&mapclient=embed&cid=2290464802176146632', '_blank');
-                        
-                        
-                                                    }
-                                                </script>-->
+                     
                         <div class="btn11">   
 
                             <div class="button11">
@@ -136,7 +122,7 @@ $Menu_Active = 6;
                                 <input type="button" id="corp" value="Corporate Office" class="corp" onclick="corporateClick();" style="cursor:pointer">
 
 
-                                <img src="common/img/Map_icon.png"  id="abcd" onclick="mapping_map_corp();">
+                                <img src="common/img/Map_icon.png"  id="corpimgmap" onclick="mapping_map_corp();">
                                 <p class="addrcorp" id="addrcorp">
 
                                     MDC Corporation (India) Pvt.Ltd.3rd Floor Deccan Avenue Pune.
@@ -146,20 +132,16 @@ $Menu_Active = 6;
                                 </p>
 
                                 <input type="button" id="regs" value="Registration Office" class="regs" onclick="registerClick();"style="cursor:pointer">
-                                <img src="common/img/Map_icon1.png" id="abc" onclick="mapping_map_reg();">
+                                <img src="common/img/Map_icon1.png" id="regimgmap" onclick="mapping_map_reg();">
                                 <p class="addrreg" id="addrreg">
 
                                     Namjoshi Building, L.B.S Road, Navi peth Pune.
                                     <br /><b>Email:</b> <a href="mailto:info@mdccorp.co.in?Subject=Hello%20again" target="_top">
-Send Mail</a><br />info@mdccorp.co.in.
+                                        Send Mail</a><br />info@mdccorp.co.in.
                                 </p>
 
                             </div>
                         </div>
-
-
-
-
                     </div>
 
 
@@ -168,22 +150,18 @@ Send Mail</a><br />info@mdccorp.co.in.
                         function corporateClick()
                         {
 
-
-
                             document.getElementById("addrcorp").style.display = "block";
                             document.getElementById("addrreg").style.display = "none";
-                            document.getElementById("abcd").display = "block";
-                            document.getElementById("abc").display = "none";
+                            document.getElementById("corpimgmap").style.display = "block";
+                            document.getElementById("regimgmap").style.display = "none";
                         }
 
                         function registerClick()
                         {
-
-
                             document.getElementById("addrcorp").style.display = "none";
                             document.getElementById("addrreg").style.display = "block";
-                            document.getElementById("abcd").display = "none";
-                            document.getElementById("abc").display = "block";
+                            document.getElementById("corpimgmap").style.display = "none";
+                            document.getElementById("regimgmap").style.display = "block";
 
                         }
 
@@ -193,31 +171,29 @@ Send Mail</a><br />info@mdccorp.co.in.
 
                     <script>
                         function mapping_map_corp() {
-                            document.getElementById("abc").display = "block";
-                            document.getElementById("abcd").display = "none";
+
                             window.open('https://www.google.com/maps/place/MDC+Corporation+(India)+Pvt.+Ltd./@18.516964,73.843409,14z/data=!4m2!3m1!1s0x0:0xe1554a03c8d12ad2?hl=en-US', '_system');
-
                         }
 
-                        function mapping_map_reg()
-                        {
-                            //document.getElementById("abcd").display = "none";
-                            // document.getElementById("abc").display = "block";
-                            window.open('https://www.google.com/maps/place/MDC/@18.4779432,73.8511853,13z/data=!4m2!3m1!1s0x0:0x1fc95d9a283e9cc8?hl=en-US', '_system');
+                            function mapping_map_reg()
+                            {
+
+                                window.open('https://www.google.com/maps/place/MDC/@18.4779432,73.8511853,13z/data=!4m2!3m1!1s0x0:0x1fc95d9a283e9cc8?hl=en-US', '_system');
 
 
-                        }
+                            }
 
                     </script>
 
 
 
                     <script>
-                        $(document).ready(function() {
+                            $(document).ready(function() {
 
-                            $(".container").niceScroll({touchbehavior: true, cursorcolor: "#444", cursoropacitymax: 0.7, cursorwidth: 4, cursorborder: "1px solid #2848BE", cursorborderradius: "8px"}); // MAC like scrollbar
+                                $(".container").niceScroll({touchbehavior: true, cursorcolor: "#444", cursoropacitymax: 0.7, cursorwidth: 4, cursorborder: "1px solid #2848BE", cursorborderradius: "8px"}); // MAC like scrollbar
 
-                        });
+                        }
+                        );
                     </script>
 
                 </div>
