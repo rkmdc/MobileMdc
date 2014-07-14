@@ -2,7 +2,7 @@
 <!DOCKTYPE HTML>
 <html>
     <head>
-        <?php include_once './Header.php'; ?>
+        <?php include_once './RealityHeader_page.php'; ?>
     </head>
     <body>
         <nav class="main-left-menu">
@@ -19,11 +19,11 @@
             <!--This is fixed header part--> 
             <?php include_once './Head_page.php'; ?>
 
-            <?php include_once './Footer.php'; ?>  
+            <?php include_once './RealityFooter_page.php'; ?>  
 
        
         
-          <div id="app_main_content" class="app-content">
+            <div id="app_main_content" class="app-content" style="background-color: #ab5f2b;">
                 <div class="Round_Blue_Canvas" style="background-color: rgb(108,60,27); text-align: justify;">
                     <div class="About_Text_wrapper">
                       <p>MDC Realities endeavors to change the skyline of the region in the coming years. Collaborating with some of the renowned architects and designers around the world MDC offers communities that can virtually change your world of living!

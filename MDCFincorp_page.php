@@ -2,7 +2,7 @@
 <!DOCKTYPE HTML>
 <html>
     <head>
-        <?php include_once './Header.php'; ?>
+        <?php include_once './FincorpHeader_page.php'; ?>
     </head>
     <body>
         <nav class="main-left-menu">
@@ -19,12 +19,12 @@
             <!--This is fixed header part--> 
             <?php include_once './Head_page.php'; ?>
 
-            <?php include_once './Footer.php'; ?>  
+            <?php include_once './FincorpFooter_page.php'; ?>  
 
        
         
-          <div id="app_main_content" class="app-content">
-                <div class="Round_Blue_Canvas" style="background:  rgb(132,37,13); text-align: justify;">
+          <div id="app_main_content" class="app-content" style="background: #ba3412 ">
+                <div class="Round_Blue_Canvas" style="background:rgb(132,37,13); text-align: justify;">
                     <div class="About_Text_wrapper">
                          <p>
                             Let&apos;s create new avenues of partnership...

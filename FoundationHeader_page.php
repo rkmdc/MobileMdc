@@ -1,5 +1,5 @@
 <!--This is fixed header part--> 
-<header style="background-image: url(common/img/Mobile_Concepts_header.png)">
+<header style="background-image: url(common/img/Mobile_Foundation_header.png)">
     <div class="main-menu-button main-menu-button-left"><a class="menu">&nbsp;</a></div>
     <div class="main-menu-button main-menu-button-right"><a class="gear">&nbsp;</a></div>
     <a href="https://www.facebook.com/MDCVENTURES" id="facebook_social" target="_blank"> </a>

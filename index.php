@@ -164,7 +164,7 @@ $Menu_Active = 1;
                         <div  class="div_home_paragraph" >
                             <p class="home_paragragh" style="    font-family: sans-serif;
     line-height: 1.5em">
-                                MDC Concepts offers a complete range of WEB & DIGITAL MARKETING SOLUTIONS like website development,Search Engine, Optimization(SEO),Mobile Application Development,SOCIAL Media Marketing,Brand Building,Content Creation and much more.   
+                                MDC Concepts offers a complete range of WEB & DIGITAL marketings solution like website development,Search Engine, Optimization(SEO),Mobile Application Development,SOCIAL Media Marketing,Brand Building,Content Creation and much more.   
                             </p>
                         </div>
                     </div>
