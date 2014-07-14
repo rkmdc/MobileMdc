@@ -31,7 +31,7 @@ $Menu_Active = 3;
                     <div class="About_Text_wrapper" style="overflow: auto;">
                         <div class="mdimg" style="margin:  0 auto; display: block"> <img id="md" src="common/img/2.png" style="margin-left: 16%;">   </div>
                         <p class="mdpara" style="margin-top: 15px;font-family: sans-serif; line-height: 1.4em;">
-                            <b style="text-transform: uppercase;"> Shri. Mohan Krishnaji Tapre </b> is the guiding light and pioneer of the MDC family. He holds a Bachelor's Degree in Commerce.
+                            <b style="text-transform: uppercase;"> Shri. Mohan Krishnaji Tapre </b> is the guiding light and pioneer of the MDC family. He holds a Bachelor&apos;s Degree in Commerce.
 
                             His illustrious journey began with Milan Medico which was a distributor for Zandu Balm. This company soon flourished into Milan Distributors, which had distributorship of well known FMCG and Medical brands.
                             Milan Distributors first brought Society Tea to Pune and this laid the foundation stone for MD Enterprises,MD Communications and all the success that followed. 
