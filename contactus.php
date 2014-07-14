@@ -10,7 +10,7 @@ $Menu_Active = 6;
         <style>
 
             .button11{
-                margin-top:150%;
+                margin-top:120%;
             }
 
             .regs{
@@ -70,17 +70,17 @@ $Menu_Active = 6;
 
             #corpimgmap{
                 //display: none;
-                width: 20%;
+                width: 29%;
                 position: absolute;
-                top: 35%;
-                right: 68%;
+                top: 32%;
+                right: 64%;
             }
             #regimgmap{
                 display: none;
-                width: 20%;
+                width: 29%;
                 position: absolute;
-                top: 35%;
-                right: 68%;
+                top: 32%;
+                right: 64%;
             }
 
         </style>
@@ -122,7 +122,7 @@ $Menu_Active = 6;
                                 <input type="button" id="corp" value="Corporate Office" class="corp" onclick="corporateClick();" style="cursor:pointer">
 
 
-                                <img src="common/img/Map_icon.png"  id="corpimgmap" onclick="mapping_map_corp();">
+                                <img src="common/img/map_img.png"  id="corpimgmap" onclick="mapping_map_corp();">
                                 <p class="addrcorp" id="addrcorp">
 
                                     MDC Corporation (India) Pvt.Ltd.3rd Floor Deccan Avenue Pune.
@@ -132,7 +132,7 @@ $Menu_Active = 6;
                                 </p>
 
                                 <input type="button" id="regs" value="Registration Office" class="regs" onclick="registerClick();"style="cursor:pointer">
-                                <img src="common/img/Map_icon1.png" id="regimgmap" onclick="mapping_map_reg();">
+                                <img src="common/img/map_img1.png" id="regimgmap" onclick="mapping_map_reg();">
                                 <p class="addrreg" id="addrreg">
 
                                     Namjoshi Building, L.B.S Road, Navi peth Pune.
