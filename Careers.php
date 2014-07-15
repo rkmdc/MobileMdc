@@ -134,7 +134,7 @@ $Menu_Active =5;
 
 
                     <p class="lable">Photo Upload </p>
-                    <span class="filewrapper"> <input type="file" class="file_input_hidden" onchange="javascript: document.getElementById('fileName').value = this.value" class="inputside" name="pic" accept="image/*" style=""></span>
+                    <span class="filewrapper"> <input type="file" class="file_input_hidden" onchange="javascript: document.getElementById('fileName').value = this.value" class="inputside" name="pic" accept="image/*" style="padding: 0px;margin-top: 10px;"></span>
 
                     <div style="clear:both"></div>
 
@@ -142,7 +142,7 @@ $Menu_Active =5;
                            margin-left: 22%;
                            position: relative;
 
-                           margin: 10px auto!important;
+                           margin: 20px 100px auto !important;
                            cursor:pointer;
                            display: block;
                            padding: 6px!important">

@@ -163,7 +163,7 @@ $Menu_Active = 1;
                         </div>
                         <div  class="div_home_paragraph" >
                             <p class="home_paragragh">
-                                MDC Concepts offers a complete range of WEB & DIGITAL marketing solution like website development,Search Engine Optimization(SEO),Mobile Application Development, Social Media Marketing,Brand Building,Content Creation and much more.   
+                                MDC Concepts offers a complete range of WEB & DIGITAL marketing solution like website development, Search Engine Optimization(SEO), Mobile Application Development, Social Media Marketing,Brand Building, Content Creation and much more.   
                             </p>
                         </div>
                     </div>
