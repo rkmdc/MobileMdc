@@ -39,7 +39,7 @@ $Menu_Active =4;
 
                     His continuing motivation and dedication has seen the company grow from MD Communications, a loan providing companyinto MDC Corporation which has business interests in finance, lifestyle, real estate, health, branding and information technology. Each MDC group company has a different fieldof operation but together, they touch all the spheres ofhuman life with unique quality deliverables.
                      </p>
-                     <div class="mdimg2"> <img id="img" src="common/img/3.png" style="margin-left: 16px;"></div>
+                     <div class="mdimg2"> <img id="img" src="common/img/11.png" style="margin-left: 16px;"></div>
                      <p class="mdpara2" style="margin-top: 30px;text-align: justify;">
                          <b style="text-transform: uppercase;">MR. MANISH MUTHA</b>
                     <br/>
