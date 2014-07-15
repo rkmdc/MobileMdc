@@ -10,7 +10,7 @@ $Menu_Active = 6;
         <style>
 
             .button11{
-                margin-top:106%;
+                margin-top:90%;
             }
 
             .regs{
@@ -25,16 +25,18 @@ $Menu_Active = 6;
 
             .addrcorp{
                 font-family: sans-serif;
+                font-size: 1.4em;
                 position: absolute;
-                top: 35%;
+                top: 25%;
                 width: 40%;
                 margin-left: 40%;
 
             }
             .addrreg{
                 font-family: sans-serif;
+                font-size: 1.5em;
                 position: absolute;
-                top: 35%;
+                top: 25%;
                 width: 40%;
                 margin-left: 40%;
 
@@ -73,14 +75,14 @@ $Menu_Active = 6;
                 //display: none;
                 width: 29%;
                 position: absolute;
-                top: 32%;
+                top: 23%;
                 right: 64%;
             }
             #regimgmap{
                 display: none;
                 width: 29%;
                 position: absolute;
-                top: 32%;
+                top: 23%;
                 right: 64%;
             }
 
@@ -112,7 +114,7 @@ $Menu_Active = 6;
             <div id="app_main_content" class="app-content">
                 <div class="Round_Blue_Canvas">
                     <div class="About_Text_wrapper">
-
+                        <h2> Contact Us</h2>
 
 
                         <div class="btn11">   
@@ -127,7 +129,7 @@ $Menu_Active = 6;
                                 <p class="addrcorp" id="addrcorp">
 
                                     MDC Corporation (India) Pvt.Ltd.3rd Floor Deccan Avenue Pune.
-                                    <br /> <b>Email:</b><a href="mailto:info@mdccorp.co.in?Subject=Hello%20again" target="_top"> Send Mail</a><br />info@mdccorp.co.in.
+                                    <br /> <b>Email:</b><a href="mailto:info@mdccorp.co.in?Subject=Hello%20again" target="_top"> info@mdccorp.co.in</a>
 
 
                                 </p>
@@ -138,7 +140,7 @@ $Menu_Active = 6;
 
                                     Namjoshi Building, L.B.S Road, Navi peth Pune.
                                     <br /><b>Email:</b> <a href="mailto:info@mdccorp.co.in?Subject=Hello%20again" target="_top">
-                                        Send Mail</a><br />info@mdccorp.co.in.
+                                        info@mdccorp.co.in</a>
                                 </p>
 
                             </div>

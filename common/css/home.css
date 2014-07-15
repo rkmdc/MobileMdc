@@ -108,6 +108,8 @@ and open the template in the editor.
     text-align: center;
     left: 10%;
     margin-left: 3%;
+    font-family: sans-serif;
+    line-height: 1.5em;
 }
 .div_home_paragraph{
     align : center ;

@@ -28,6 +28,7 @@ $Menu_Active =4;
           <div id="app_main_content" class="app-content">
                 <div class="Round_Blue_Canvas">
                     <div class="About_Text_wrapper">
+                        <h2 style="text-align: center;">Board of Director </h2>
                         <div class="mdimg1"> <img id="img" src="common/img/1.png" style="margin-left: 16px;"></div>
                         <p class="mdpara1" style="text-align: justify;margin-top: 15px;font-family: sans-serif; line-height: 1.4em;">
                          <b style="text-transform: uppercase;">MR. PUSHKAR M.TAPRE</b><br/>
@@ -55,7 +56,7 @@ $Menu_Active =4;
         
         
         
-       <script>
+<!--       <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -64,7 +65,7 @@ $Menu_Active =4;
   ga('create', 'UA-52622661-1', 'auto');
   ga('send', 'pageview');
 
-</script>    
+</script>    -->
             
     </body>
 
