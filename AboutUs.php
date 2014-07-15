@@ -31,7 +31,7 @@ $Menu_Active =2;
                         <h2>About Us</h2>
                         <p>Vision<br/>
                             To be known as an innovative multi-disciplinary business
-                            conglomerate making “a difference” to its stake holders.
+                            conglomerate making a difference to its stake holders.
                             To touch every sphere of human life through diverse
                             business verticals enriching it further. To provide strong
                             global foothold to all our products and services by
