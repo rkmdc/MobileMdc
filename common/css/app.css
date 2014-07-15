@@ -44,7 +44,7 @@
     height: 397px;
 }
 
-.Menu_home { background: url('../img/menu_icon_image_stripe_03.png') 380px 1px; display: inline-block; width: 50px; height: 50px; /* text-indent: -9999px; */ /* background-position: 0px 0; */ /* display: inline; */ /* position: absolute; */ /* left: 8.5%; */ /* float: left; */ /* top: 18%; */ float: left;}
+.Menu_home { background: url('../img/menu_icon_image_stripe_03.png') 380px -5px; display: inline-block; width: 50px; height: 50px; /* text-indent: -9999px; */ /* background-position: 0px 0; */ /* display: inline; */ /* position: absolute; */ /* left: 8.5%; */ /* float: left; */ /* top: 18%; */ float: left;}
 .Menu_home_select { background: url('../img/menu_icon_image_stripe_select.png') 380px 1px; display: inline-block; width: 50px; height: 50px; /* text-indent: -9999px; */ /* background-position: 0px 0; */ /* display: inline; */ /* position: absolute; */ /* left: 8.5%; */ /* float: left; */ /* top: 18%; */ float: left;}
 
 .Menu_about_us { background: url('../img/menu_icon_image_stripe_03.png') 311px -7px; display: inline-block; width: 50px; height: 50px; /* text-indent: -9999px; */ /* background-position: 0px 0; */ /* display: inline; */ /* position: absolute; */ /* left: 8.5%; */ /* float: left; */ /* top: 18%; */ float: left;}
@@ -108,7 +108,7 @@
     -moz-transition: width 0.3s; /* Firefox 4 */
     -o-transition: width 0.3s;
     color: #d0d7e1;
-    margin-top: 23px;
+    margin-top: 15px;
 }
 /* line 22, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {

@@ -25,7 +25,7 @@ $Menu_Active = 6;
 
             .addrcorp{
                 font-family: sans-serif;
-                font-size: 1.4em;
+                
                 position: absolute;
                 top: 25%;
                 width: 40%;
@@ -34,7 +34,7 @@ $Menu_Active = 6;
             }
             .addrreg{
                 font-family: sans-serif;
-                font-size: 1.5em;
+                
                 position: absolute;
                 top: 25%;
                 width: 40%;

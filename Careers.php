@@ -18,7 +18,7 @@ $Menu_Active =5;
             }
             .form1{
                 font-family: sans-serif;
-                margin:0 auto;display:block;width:43%;
+                margin:0px 0px 0px 25px;display:block;width:43%;
             }
 
             .lable{margin-top:19px;
@@ -106,8 +106,8 @@ $Menu_Active =5;
 
         <div class="container" style="width: 70%;">
 
-            <div style="margin-top: 54px;;">
-                <h3 style="color: #FFF; font-family:sans-serif;">Application Form</h3>
+            <div style="margin-top: 10px;;">
+                <h1 style="color: #FFF; font-family:sans-serif; margin-left: 24px;">Application Form</h1>
 
 
                 <form action="sendmail_Career.php" class="form1" id="myForm" method="POST" enctype="multipart/form-data">
@@ -142,7 +142,7 @@ $Menu_Active =5;
                            margin-left: 22%;
                            position: relative;
 
-                           margin: 20px 100px auto !important;
+                           margin: 0 auto !important;
                            cursor:pointer;
                            display: block;
                            padding: 6px!important">
