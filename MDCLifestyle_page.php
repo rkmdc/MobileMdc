@@ -26,7 +26,7 @@
           <div id="app_main_content" class="app-content" style="background-color: #811faf;">
                 <div class="Round_Blue_Canvas" style="background-color:rgb(92,22,125); text-align: justify;">
                     <div class="About_Text_wrapper">
-                   <p>Let&apos;s give new dimension to a healthy living...
+                   <p>Let&apos;s give new dimension to a healthy living...<br />
 
 Driving in the fast lane of modern living often takes a heavy toll on your health. The pressure of delivering professionally takes precedence over basic dos like eating on time, having sufficient sleep and spending time on physical fitness. Our chain of AURA THAI SPA has been a leading provider of the world-class spa and wellness services.
 The claimed benefits of Thai massage are many, including relief from multiple ailments ranging from asthma and migraines to sprains, bruises, and anxiety. Further benefits include relief of physical and emotional stress, ameliorated sleep, improved flexibility, a greater awareness of body and mind, and a release of blocked energy.

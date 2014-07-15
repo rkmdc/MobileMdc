@@ -27,10 +27,10 @@
                 <div class="Round_Blue_Canvas" style="background:rgb(132,37,13); text-align: justify;">
                     <div class="About_Text_wrapper">
                          <p>
-                            Let&apos;s create new avenues of partnership...
+                            Let&apos;s create new avenues of partnership...<br />
                             Fincorp is the flagship enterprise of MDC Group engaged in providing financial solutions through its collaboration with various banks and financial institutions. It identifies potential partnerships through new business ventures and projects that require financial assistance. We strongly believe that any viable idea that promises returns and sustained growth is worth investing in.
 
-                            We Provide...
+                           <br /> We Provide...<br />
 
                             Large scale Project Funding
                             Syndication of Working capital & Term Loan

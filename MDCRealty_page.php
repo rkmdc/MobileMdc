@@ -28,13 +28,13 @@
                     <div class="About_Text_wrapper">
                       <p>MDC Realities endeavors to change the skyline of the region in the coming years. Collaborating with some of the renowned architects and designers around the world MDC offers communities that can virtually change your world of living!
 
-MDC REALTIES builds and develops:
-Contemporary Residential Apartments which are environment-friendly
-State of the art Commercial Properties.
-Malls
-Farmhouse Plots
-Theme Parks
-SEZ
+<br />MDC REALTIES builds and develops:<br />
+Contemporary Residential Apartments which are environment-friendly<br />
+State of the art Commercial Properties.<br />
+Malls<br />
+Farmhouse Plots<br />
+Theme Parks<br />
+SEZ<br />
 
 And the list is endless.</p>   
                        
