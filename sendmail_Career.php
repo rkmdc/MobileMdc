@@ -1,7 +1,7 @@
 <?php
 
 $to = $_POST['email'];
-$fromEmail = 'headhr@mdccorp.in';
+$fromEmail = 'info@mdccorp.in';
 $fromName = $_POST['fname'];
 $subject = 'Job Application Request';
 $lname = $_POST['lname'];
@@ -65,12 +65,15 @@ $usermessage = "Dear candidate
                         We will get back to you soon.";
 
 mail($to, $usersubject, $usermessage, "From: $fromEmail \r\n Reply-To: $fromEmail \r\nReturn-Path: $fromEmail\r\n");
+mail('info@mdccorp.in', 'message receive','job application',"From: $fromEmail \r\n Reply-To: $fromEmail \r\nReturn-Path: $fromEmail\r\n");
+
+
 if ($flgchk) {
    // header('Location: http://corptwo.mdccorp.in/career.php?result=1');
-    header('Location: http://localhost:8000/Careers.php?result=1');
+    header('Location: http://m.mdccorp.in/Careers.php?result=1');
     
 } else {
-      header('Location: http://localhost:8000/Careers.php?result=0');
+      header('Location: http://m.mdccorp.in/Careers.php?result=0');
     //header('Location: http://corptwo.mdccorp.in/career.php?result=0');
 }
 ?>
