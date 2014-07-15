@@ -1,4 +1,4 @@
- <div id="leftmenu_content">
+ <div id="leftmenu_content" class="rightmenu_div" style="display: none;">
                 <ul id="left_Menu_Ul_styles">
                     <li style="background-color: rgb(132,37,13);"><a href="MDCFincorp_page.php"> <div class="Services_Websites"></div> <div class="menu_Text_wrapper" ><span  style="font-family: sans-serif">MDC Fincorp</span>
 

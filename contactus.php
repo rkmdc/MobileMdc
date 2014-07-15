@@ -10,7 +10,7 @@ $Menu_Active = 6;
         <style>
 
             .button11{
-                margin-top:120%;
+                margin-top:106%;
             }
 
             .regs{
@@ -24,7 +24,7 @@ $Menu_Active = 6;
             }
 
             .addrcorp{
-
+                font-family: sans-serif;
                 position: absolute;
                 top: 35%;
                 width: 40%;
@@ -32,6 +32,7 @@ $Menu_Active = 6;
 
             }
             .addrreg{
+                font-family: sans-serif;
                 position: absolute;
                 top: 35%;
                 width: 40%;
@@ -113,7 +114,7 @@ $Menu_Active = 6;
                     <div class="About_Text_wrapper">
 
 
-                     
+
                         <div class="btn11">   
 
                             <div class="button11">
@@ -175,22 +176,22 @@ $Menu_Active = 6;
                             window.open('https://www.google.com/maps/place/MDC+Corporation+(India)+Pvt.+Ltd./@18.516964,73.843409,14z/data=!4m2!3m1!1s0x0:0xe1554a03c8d12ad2?hl=en-US', '_system');
                         }
 
-                            function mapping_map_reg()
-                            {
+                        function mapping_map_reg()
+                        {
 
-                                window.open('https://www.google.com/maps/place/MDC/@18.4779432,73.8511853,13z/data=!4m2!3m1!1s0x0:0x1fc95d9a283e9cc8?hl=en-US', '_system');
+                            window.open('https://www.google.com/maps/place/MDC/@18.4779432,73.8511853,13z/data=!4m2!3m1!1s0x0:0x1fc95d9a283e9cc8?hl=en-US', '_system');
 
 
-                            }
+                        }
 
                     </script>
 
 
 
                     <script>
-                            $(document).ready(function() {
+                        $(document).ready(function() {
 
-                                $(".container").niceScroll({touchbehavior: true, cursorcolor: "#444", cursoropacitymax: 0.7, cursorwidth: 4, cursorborder: "1px solid #2848BE", cursorborderradius: "8px"}); // MAC like scrollbar
+                            $(".container").niceScroll({touchbehavior: true, cursorcolor: "#444", cursoropacitymax: 0.7, cursorwidth: 4, cursorborder: "1px solid #2848BE", cursorborderradius: "8px"}); // MAC like scrollbar
 
                         }
                         );

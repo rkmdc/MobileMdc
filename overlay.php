@@ -16,7 +16,7 @@ display: none;">-->
 
 
     $(window).load(function() {
-
+        $('.rightmenu_div').show();
         $('.overlay').fadeOut(500);
 
     });
