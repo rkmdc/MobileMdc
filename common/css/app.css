@@ -52,9 +52,9 @@
 
 
 
-.Menu_MdDesk{
+.Menu_MD{
     background: url('../img/menu_icon_image_stripe_03.png') 180px -8px;display: inline-block; width: 50px; height: 50px; /* text-indent: -9999px; */ /* background-position: 0px 0; */ /* display: inline; */ /* position: absolute; */ /* left: 8.5%; */ /* float: left; */ /* top: 18%; */ float: left;}
-.Menu_MdDesk_select{background: url('../img/menu_icon_image_stripe_select.png') 180px -8px;display: inline-block;height: 50px;width: 50px;float: left;}
+.Menu_MD_select{background: url('../img/menu_icon_image_stripe_select.png') 180px -8px;display: inline-block;height: 50px;width: 50px;float: left;}
 
 
 .Menu_Bod{ background: url(../img/menu_icon_image_stripe_03.png) 249px  -7px;display: inline-block; width: 50px; height: 50px;float: left;}

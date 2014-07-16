@@ -7,7 +7,7 @@ $subject = 'Job Application Request';
 $lname = $_POST['lname'];
 $contactno = $_POST['contactno'];
 $address = $_POST['address'];
-$message = "$fname.$lname has applied for Job at MDC Careers
+$message = "$fname.$lname has applied for Job at MDC career
                     Following are the candidate details:
                     Name: $fromName.$lname
                     Contact Number: $contactno
@@ -70,10 +70,10 @@ mail('info@mdccorp.in', 'message receive','job application',"From: $fromEmail \r
 
 if ($flgchk) {
    // header('Location: http://corptwo.mdccorp.in/career.php?result=1');
-    header('Location: http://m.mdccorp.in/Careers.php?result=1');
+    header('Location: http://m.mdccorp.in/career.php?result=1');
     
 } else {
-      header('Location: http://m.mdccorp.in/Careers.php?result=0');
+      header('Location: http://m.mdccorp.in/career.php?result=0');
     //header('Location: http://corptwo.mdccorp.in/career.php?result=0');
 }
 ?>
