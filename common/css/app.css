@@ -98,6 +98,11 @@
 
     color: #fff;
 }
+
+.select_menu_text_styles{
+      margin-top: 24px;
+      text-shadow: 0px 0px 10px #FFFFFF;
+}
 .select_menu_styles{
     -webkit-stroke-width: 5.3px;
     -webkit-stroke-color: #FFFFFF;
@@ -108,7 +113,7 @@
     -moz-transition: width 0.3s; /* Firefox 4 */
     -o-transition: width 0.3s;
     color: #d0d7e1;
-    margin-top: 15px;
+    margin-top: 18px;
 }
 /* line 22, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {

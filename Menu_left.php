@@ -1,6 +1,6 @@
 <div id="leftmenu_content" class="leftmenu_div" style="display: none;">
     <ul id="left_Menu_Ul_styles">
-        <li class="Default_Menu_Border"><a href="index.php"><div class="Menu_home <?php if ($Menu_Active == 1) {echo 'Menu_home_select';} ?>"></div> <div  class="menu_Text_wrapper <?php if ($Menu_Active == 1) {echo 'select_menu_styles';} ?>"  ><span style="font-family: sans-serif;" >Home</span>
+        <li class="Default_Menu_Border"><a href="index.php"><div class="Menu_home <?php if ($Menu_Active == 1) {echo 'Menu_home_select';} ?>"></div> <div  class="menu_Text_wrapper <?php if ($Menu_Active == 1) {echo 'select_menu_text_styles';} ?>" ><span style="font-family: sans-serif;" >Home</span>
 
                 </div> </a>
         </li>
