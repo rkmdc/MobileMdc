@@ -22,7 +22,7 @@
 
 
 
-        <li class="Default_Menu_Border"><a href="career.php"><div class="Menu_Carrers <?php if ($Menu_Active == 5) {echo 'Menu_Carrers_select';} ?>"></div> <div class="menu_Text_wrapper <?php if ($Menu_Active == 5) {echo 'select_menu_styles';} ?>"><span style="font-family: sans-serif;" >career</span>
+        <li class="Default_Menu_Border"><a href="career.php"><div class="Menu_Carrers <?php if ($Menu_Active == 5) {echo 'Menu_Carrers_select';} ?>"></div> <div class="menu_Text_wrapper <?php if ($Menu_Active == 5) {echo 'select_menu_styles';} ?>"><span style="font-family: sans-serif;" >careers</span>
 
                 </div> </a>
         </li>

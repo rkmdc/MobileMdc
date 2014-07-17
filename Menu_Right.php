@@ -24,7 +24,7 @@
 
                             </div> </a>
                     </li>
-                    <li style="background-color: rgb(173,135,62);"> <a href="Foundation.php"><div class="Services_Websites"></div> <div class="menu_Text_wrapper" ><span  style="font-family: sans-serif">MDC Foundation</span>
+                    <li style="background-color: rgb(173,135,62);"> <a href="foundation.php"><div class="Services_Websites"></div> <div class="menu_Text_wrapper" ><span  style="font-family: sans-serif">MDC foundation</span>
 
                             </div> </a>
                     </li>
