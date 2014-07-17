@@ -6,7 +6,7 @@ $Menu_Active = 1;
 <!DOCTYPE html>
 <html>
     <head>
-<!--        <meta name="google-site-verification" content="zxd1iE_Pli1AHlUuPgHheRlsL8514BqY06j7GaIInFI" />-->
+       <meta name="google-site-verification" content="zxd1iE_Pli1AHlUuPgHheRlsL8514BqY06j7GaIInFI" />
         <?php include_once './Headindex_page.php'; ?>
 
 
@@ -174,7 +174,7 @@ $Menu_Active = 1;
        
         <!-- Line Art Scripts for logo-->
         <script src="common/js/logoLIneArtDrawing.js" type="text/javascript"></script>
-
+      
 <!--        <script>
             (function(i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r;
@@ -191,7 +191,7 @@ $Menu_Active = 1;
             ga('create', 'UA-52622661-1', 'auto');
             ga('send', 'pageview');
 
-        </script>    -->
+        </script>   -->
 
 
 
