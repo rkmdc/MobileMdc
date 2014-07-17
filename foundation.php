@@ -2,7 +2,7 @@
 <!DOCKTYPE HTML>
 <html>
     <head>
-        <?php include_once './foundationHeader_page.php'; ?>
+        <?php include_once './FoundationHeader_page.php'; ?>
     </head>
     <body>
         <nav class="main-left-menu">
@@ -19,7 +19,7 @@
             <!--This is fixed header part--> 
             <?php include_once './Head_page.php'; ?>
 
-            <?php include_once './foundationFooter_page.php'; ?>  
+            <?php include_once './FoundationFooter_page.php'; ?>  
 
        
         
