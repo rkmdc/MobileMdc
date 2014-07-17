@@ -9,7 +9,7 @@
                             </div></a>
                     </li>
 
-                     <li style="background-color: rgb(108,60,27);"> <a href="Reality.php"><div class="Services_Websites"></div> <div class="menu_Text_wrapper" ><span  style="font-family: sans-serif">MDC Reality</span>
+                     <li style="background-color: rgb(108,60,27);"> <a href="Reality.php"><div class="Services_Websites"></div> <div class="menu_Text_wrapper" ><span  style="font-family: sans-serif">MDC Realty</span>
 
                             </div> </a>
                     </li>
