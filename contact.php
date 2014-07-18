@@ -9,8 +9,10 @@ $Menu_Active = 6;
 
         <style>
 
-            .button11{
-                margin-top:90%;
+            .buttondiv{
+                margin-top:-9%;
+                margin-left: 3%;
+                margin-right: 2%;
             }
 
             .regs{
@@ -25,7 +27,7 @@ $Menu_Active = 6;
 
             .addrcorp{
                 font-family: sans-serif;
-                
+
                 position: absolute;
                 top: 25%;
                 width: 40%;
@@ -34,7 +36,7 @@ $Menu_Active = 6;
             }
             .addrreg{
                 font-family: sans-serif;
-                
+
                 position: absolute;
                 top: 25%;
                 width: 40%;
@@ -73,16 +75,16 @@ $Menu_Active = 6;
 
             #corpimgmap{
                 //display: none;
-                width: 29%;
+                width: 26%;
                 position: absolute;
-                top: 23%;
+                top: 15%;
                 right: 64%;
             }
             #regimgmap{
                 display: none;
-                width: 29%;
+                width: 26%;
                 position: absolute;
-                top: 23%;
+                top: 15%;
                 right: 64%;
             }
 
@@ -113,6 +115,7 @@ $Menu_Active = 6;
 
             <div id="app_main_content" class="app-content">
                 <div class="Round_Blue_Canvas">
+
                     <div class="About_Text_wrapper">
                         <h2> Contact Us</h2>
 
@@ -122,7 +125,7 @@ $Menu_Active = 6;
                             <div class="button11">
 
 
-                                <input type="button" id="corp" value="Corporate Office" class="corp" onclick="corporateClick();" style="cursor:pointer">
+
 
 
                                 <img src="common/img/map_img.png"  id="corpimgmap" onclick="mapping_map_corp();">
@@ -134,7 +137,7 @@ $Menu_Active = 6;
 
                                 </p>
 
-                                <input type="button" id="regs" value="Registration Office" class="regs" onclick="registerClick();"style="cursor:pointer">
+
                                 <img src="common/img/map_img1.png" id="regimgmap" onclick="mapping_map_reg();">
                                 <p class="addrreg" id="addrreg">
 
@@ -144,10 +147,17 @@ $Menu_Active = 6;
                                 </p>
 
                             </div>
+
+
                         </div>
+
                     </div>
 
+                    <div class="buttondiv">
 
+                        <input type="button" id="corp" value="Corporate Office" class="corp" onclick="corporateClick();" style="cursor:pointer">
+                        <input type="button" id="regs" value="Registration Office" class="regs" onclick="registerClick();"style="cursor:pointer">
+                    </div>        
                     <script type="text/javascript">
 
                         function corporateClick()

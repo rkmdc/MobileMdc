@@ -31,8 +31,9 @@ and open the template in the editor.
 .About_Text_wrapper{
     font-family: sans-serif;
     line-height: 1.4em;
-
-    margin: 7%;
+   
+    margin:3% 7% 5% 3%;
+ 
     text-align: justify;
     display: block;
     height: 89%;
