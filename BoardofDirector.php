@@ -65,18 +65,20 @@ $Menu_Active = 4;
         </div>
 
 
-        
-<!--                        <script type="text/javascript">
-//console.log("Enter")
-                            if (((screen.width <= 800) && (screen.height <= 1000)) || ((screen.width <= 1050) && (screen.height <= 800)))
-                            {
-                                console.log('Enter in the media');
-                                document.getElementsByClassName(".About_Text_wrapper").style.display = "block";
-                                document.getElementsByClassName(".About_Text_wrapper").style.width = "1050px";
-                                document.getElementsByClassName(".About_Text_wrapper").style.height = "500px";
-                                alert("100%");
-                            }
-                        </script>-->
+<script type="text/javascript">
+                alert(screen.width);
+alert(screen.height);
+   if (((screen.width <= 800)&&(screen.height <=1000))||((screen.width <= 1000)&&(screen.height <=800))) {
+    // document.getElementsByClassName(".button11").style.margin-top = "35%";
+                                
+             alert(screen.width);
+             alert(screen.height);   
+ 
+                                
+  // window.location = "http://m.mdccorp.in/<?php echo basename($_SERVER['PHP_SELF']); ?>";
+    }
+    
+</script> 
 
         
         

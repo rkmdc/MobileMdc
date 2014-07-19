@@ -1,79 +1,85 @@
 <?php
+session_start();
+if (!empty($_POST)) { 
 
-$to = $_POST['email'];
-$fromEmail = 'info@mdccorp.in';
+$tomail = $_POST['email'];
+$sendtoadmin = 'rishav.elex87@gmail.com';
 $fromName = $_POST['fname'];
 $subject = 'Job Application Request';
 $lname = $_POST['lname'];
 $contactno = $_POST['contactno'];
 $address = $_POST['address'];
-$message = "$fname.$lname has applied for Job at MDC career
-                    Following are the candidate details:
-                    Name: $fromName.$lname
-                    Contact Number: $contactno
-                    Email Address: $to
-                    Address: $address";
 
+$from = "Rishav kumar";
+$receive = "Hi,\r\n\r\n  We have received your mail.
+Dear candidate:
+                Thank You for applying at our company
+                We will get back to you soon.";
+$content .= "Following are the candidate details:\r\n Name: " . $fromName . "\r\n Contact Number:  " . $contactno . "\r\n Email Id: " . $tomail ."\r\n  Address: " . $address;
 
-/* GET File Variables */
-$tmpName = $_FILES['pic']['tmp_name'];
-$fileType = $_FILES['pic']['type'];
-$fileName = $_FILES['pic']['name'];
+$filename = $_FILES['pic']['name'];
+        if(!empty($filename)){
+            $attachment = chunk_split(base64_encode(file_get_contents($_FILES['pic']['tmp_name'])));
+        }
+        
 
-/* Start of headers */
-$headers = "From: $to";
+        $boundary =md5(date('r', time())); 
 
-if (file($tmpName)) {
-    /* Reading file ('rb' = read binary)  */
-    $file = fopen($tmpName, 'rb');
-    $data = fread($file, filesize($tmpName));
-    fclose($file);
+    $headers = "From: Mdc Corporation info@mdccorp.in";
+        $headers .= "\r\nMIME-Version: 1.0\r\nContent-Type: multipart/mixed; boundary=\"_1_$boundary\"";
+    
+    $content="This is a multi-part message in MIME format.
+    
+--_1_$boundary
+Content-Type: multipart/alternative; boundary=\"_2_$boundary\"
 
-    /* a boundary string */
-    $randomVal = md5(time());
-    $mimeBoundary = "==Multipart_Boundary_x{$randomVal}x";
+--_2_$boundary
+Content-Type: text/plain; charset=\"iso-8859-1\"
+Content-Transfer-Encoding: 7bit
 
-    /* Header for File Attachment */
-    $headers .= "\nMIME-Version: 1.0\n";
-    $headers .= "Content-Type: multipart/mixed;\n";
-    $headers .= " boundary=\"{$mimeBoundary}\"";
+$content
 
-    /* Multipart Boundary above message */
-    $message .= "This is a multi-part message in MIME format.\n\n" .
-            "--{$mimeBoundary}\n" .
-            "Content-Type: text/plain; charset=\"iso-8859-1\"\n" .
-            "Content-Transfer-Encoding: 7bit\n\n" .
-            $message . "\n\n";
+--_2_$boundary--
+--_1_$boundary
+Content-Type: application/octet-stream; name=\"$filename\" 
+Content-Transfer-Encoding: base64 
+Content-Disposition: attachment 
 
-    /* Encoding file data */
-    $data = chunk_split(base64_encode($data));
+$attachment
+--_1_$boundary--";
 
-    /* Adding attchment-file to message */
-    $message .= "--{$mimeBoundary}\n" .
-            "Content-Type: {$fileType};\n" .
-            " name=\"{$fileName}\"\n" .
-            "Content-Transfer-Encoding: base64\n\n" .
-            $data . "\n\n" .
-            "--{$mimeBoundary}--\n";
-}
-
-$flgchk = mail("$fromEmail", "$subject", "$message", "$headers");
-
-$usersubject = "Job Application Received";
-$usermessage = "Dear candidate
-                        Thank You for applying at our company
-                        We will get back to you soon.";
-
-mail($to, $usersubject, $usermessage, "From: $fromEmail \r\n Reply-To: $fromEmail \r\nReturn-Path: $fromEmail\r\n");
-mail('info@mdccorp.in', 'message receive','job application',"From: $fromEmail \r\n Reply-To: $fromEmail \r\nReturn-Path: $fromEmail\r\n");
-
+$flgchk=mail($tomail,"Application",$receive,$headers);
 
 if ($flgchk) {
-   // header('Location: http://corptwo.mdccorp.in/career.php?result=1');
-    header('Location: http://m.mdccorp.in/career.php?result=1');
-    
+    mail($sendtoadmin, "Application", $content, $headers);
+    header('Location: http://mdccorp.in/career.php');
+    $_SESSION['result']=1;
 } else {
-      header('Location: http://m.mdccorp.in/career.php?result=0');
-    //header('Location: http://corptwo.mdccorp.in/career.php?result=0');
+    header('Location: http://mdccorp.in/career.php');
+    $_SESSION['result']=0;
 }
+
+
+//for user mail
+ 
+//$receive = "Hi,\r\n\r\n  We have received your mail.";
+
+   
+   
+//for admin mail
+/*$sendtoadmin = 'rishav.elex87@gmail.com';
+
+//$content .= "Following are the candidate details:\r\n Name: " . $fromName . "\r\n Contact Number:  " . $contactno . "\r\n Email Id:" . $to ."\r\n  Address: " . $address;
+
+$headersadmin= 'From: MDC corp';
+
+        $mail_send = mail($tomail,"Application",$receive,$headers);
+ 	$mail_admin = mail($sendtoadmin,"Application",$content,$headersadmin);
+ header( 'Location:http://mdccorp.in/career.php' ) ;*/
+
+ 
+}
+
+
+
 ?>

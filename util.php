@@ -49,18 +49,17 @@ $Menu_Active =0;
 date_default_timezone_set("Asia/Bangkok");
 ?>
 
-
-
-
-
 <script type="text/javascript">
+                alert(screen.width);
+alert(screen.height);
    if (((screen.width <= 800)&&(screen.height <=1000))||((screen.width <= 1000)&&(screen.height <=800))) {
-     document.getElementsByClassName(".button11").style.margin-top = "35%";
+    // document.getElementsByClassName(".button11").style.margin-top = "35%";
                                 
              alert(screen.width);
-             alert(screen.height);                   
+             alert(screen.height);   
+ 
                                 
-        window.location = "http://m.mdccorp.in/<?php echo basename($_SERVER['PHP_SELF']); ?>";
+  // window.location = "http://m.mdccorp.in/<?php echo basename($_SERVER['PHP_SELF']); ?>";
     }
     
 </script> 
