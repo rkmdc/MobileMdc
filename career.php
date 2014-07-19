@@ -1,6 +1,7 @@
 <?php
 include_once './util.php';
 $Menu_Active = 5;
+session_start();
 ?>
 <!DOCKTYPE HTML>
 <html>
@@ -79,12 +80,12 @@ $Menu_Active = 5;
                 <div class="Round_Blue_Canvas">
                     <div class="About_Text_wrapper">
                         <?php
-                        if (!isset($_GET['result'])) {
+                        if (!isset($_SESSION['result'])) {
                             
                         } else {
                             ?>
                             <div class="messagebox <?php
-                            if ($_GET['result'] == 1) {
+                            if ($_SESSION['result'] == 1) {
                                 echo 'success';
                             } else {
                                 echo 'alert';
@@ -92,7 +93,7 @@ $Menu_Active = 5;
                             ?> ">
 
                                 <?php
-                                if ($_GET['result'] == 1) {
+                                if ($_SESSION['result'] == 1) {
                                     echo 'Application sent.';
                                 } else {
                                     echo 'Application not sent.';
@@ -101,6 +102,7 @@ $Menu_Active = 5;
 
                             </div> 
                             <?php
+                                unset($_SESSION['result']);
                         }
                         ?>
 
