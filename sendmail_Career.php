@@ -3,7 +3,7 @@ session_start();
 if (!empty($_POST)) { 
 
 $tomail = $_POST['email'];
-$sendtoadmin = 'rishav.elex87@gmail.com';
+$sendtoadmin = 'info@mdccorp.in';
 $fromName = $_POST['fname'];
 $subject = 'Job Application Request';
 $lname = $_POST['lname'];
@@ -11,11 +11,11 @@ $contactno = $_POST['contactno'];
 $address = $_POST['address'];
 
 $from = "Rishav kumar";
-$receive = "Hi,\r\n\r\n  We have received your mail.
+$receive = "Hi,\r\n\r\nWe have received your mail.
 Dear candidate:
                 Thank You for applying at our company
                 We will get back to you soon.";
-$content .= "Following are the candidate details:\r\n Name: " . $fromName . "\r\n Contact Number:  " . $contactno . "\r\n Email Id: " . $tomail ."\r\n  Address: " . $address;
+$content .= "Following are the candidate details:\r\n Name: " . $fromName . "\r\n Contact Number: " . $contactno . "\r\n Email Id: " . $tomail ."\r\n Address: " . $address;
 
 $filename = $_FILES['pic']['name'];
         if(!empty($filename)){
@@ -25,7 +25,7 @@ $filename = $_FILES['pic']['name'];
 
         $boundary =md5(date('r', time())); 
 
-    $headers = "From: Mdc Corporation info@mdccorp.in";
+    $headers = "From: $fromName";
         $headers .= "\r\nMIME-Version: 1.0\r\nContent-Type: multipart/mixed; boundary=\"_1_$boundary\"";
     
     $content="This is a multi-part message in MIME format.
@@ -47,15 +47,15 @@ Content-Disposition: attachment
 
 $attachment
 --_1_$boundary--";
-
-$flgchk=mail($tomail,"Application",$receive,$headers);
+$headerusers= "From: MDC-Corporation";
+$flgchk=mail($tomail,"Application",$receive,$headerusers);
 
 if ($flgchk) {
     mail($sendtoadmin, "Application", $content, $headers);
-    header('Location: http://mdccorp.in/career.php');
+    header('Location:http://m.mdccorp.in/career.php');
     $_SESSION['result']=1;
 } else {
-    header('Location: http://mdccorp.in/career.php');
+    header('Location: http://m.mdccorp.in/career.php');
     $_SESSION['result']=0;
 }
 

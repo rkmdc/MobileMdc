@@ -58,7 +58,7 @@ date_default_timezone_set("Asia/Bangkok");
         // alert(screen.height);   
 
 
-         window.location = "http://mdccorp.in/<?php echo basename($_SERVER['PHP_SELF']); ?>";
+       //  window.location = "http://mdccorp.in/<?php echo basename($_SERVER['PHP_SELF']); ?>";
     }
 
 </script> 
