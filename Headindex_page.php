@@ -3,7 +3,7 @@
 <title>MDC Corporation</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1,  minimum-scale=1, maximum-scale=1">
-
+<link rel="icon" href="common/images/MdcCorp_favicon1.png" type="image/x-icon"/>
 <link rel="stylesheet" href="common/css/app.css">
 <link rel="stylesheet" href="common/css/reset.css">
 <link rel="stylesheet" href="common/css/home.css">

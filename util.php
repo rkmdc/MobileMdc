@@ -22,6 +22,7 @@ $Website_Logo = "/images/logo_100x100.png";
 $Website_Favicon = "/images/MdcCorp_favicon1.png";
 
 
+
 /**
  * This is meta Tag for description
  */

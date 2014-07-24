@@ -5,7 +5,7 @@ $Menu_Active = 4;
 <!DOCKTYPE HTML>
 <html>
     <head>
-
+<link rel="icon" href="common/images/MdcCorp_favicon1.png" type="image/x-icon"/>
  <?php include_once './Header.php'; ?>
     </head>
     <body>
